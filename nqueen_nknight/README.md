@@ -10,10 +10,12 @@ The second is the number of rooks or queens (i.e., N). The third argument repres
 unavailable positions. The remaining arguments encode which positions are unavailable, using row-
 column coordinates and assuming a coordinate system where (1,1) is at the top-left of the board.
 Taking the 7-rooks problem with position (1, 1) unavailable as an example, we might run:
-[<>djcran@tank ~]$ ,.nqueen_nrook_nknight.py nrook 7 1 1 1
+
+$.nqueen_nrook_nknight.py nrook 7 1 1 1
 which means that one square is unavailable, and it is at row 1 and column 1. One possible result could
 be:
-[<>djcran@tank ~]$ ./nqueen_nrook_nknight.py nrook 7 1 1 1
+
+$ ./nqueen_nrook_nknight.py nrook 7 1 1 1
 
 X R _ _ _ _ _
 
@@ -31,7 +33,8 @@ _ _ _ _ _ _ R
 
 where R indicates the position of a rook, underscore marks an empty square, and X shows the unavailable
 position. Or for the 8-queens problem with (1, 2) and (1,8) unavailable, one possible result could be:
-[<>djcran@tank ~]$ ./nqueen_nrook_nknight.py nqueen 8 2 1 2 1 8
+
+$ ./nqueen_nrook_nknight.py nqueen 8 2 1 2 1 8
 
 _ X _ _ Q _ _ X
 
