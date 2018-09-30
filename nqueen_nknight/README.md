@@ -16,24 +16,39 @@ be:
 [<>djcran@tank ~]$ ./nqueen_nrook_nknight.py nrook 7 1 1 1
 
 X R _ _ _ _ _
+
 R _ _ _ _ _ _
+
 _ _ R _ _ _ _
+
 _ _ _ R _ _ _
+
 _ _ _ _ R _ _
+
 _ _ _ _ _ R _
+
 _ _ _ _ _ _ R
+
 where R indicates the position of a rook, underscore marks an empty square, and X shows the unavailable
 position. Or for the 8-queens problem with (1, 2) and (1,8) unavailable, one possible result could be:
 [<>djcran@tank ~]$ ./nqueen_nrook_nknight.py nqueen 8 2 1 2 1 8
 
 _ X _ _ Q _ _ X
+
 _ _ _ _ _ _ Q _
+
 _ Q _ _ _ _ _ _
+
 _ _ _ _ _ Q _ _
+
 _ _ Q _ _ _ _ _
+
 Q _ _ _ _ _ _ _
+
 _ _ _ Q _ _ _ _
+
 _ _ _ _ _ _ _ Q
+
 where the Q's indicate the positions of queens on the board. As a special case, there can be 0 unavailable
 squares, in which case only exactly three arguments are given to nqueen_nrook_nknight.py. Please print only the solution in exactly the above format and nothing else. The output format is important because we will use
 an auto-grading script to test and grade your code.
