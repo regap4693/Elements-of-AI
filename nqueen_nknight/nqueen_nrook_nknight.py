@@ -1,8 +1,5 @@
 #!/usr/bin/env python3
 # nrooks.py : Solve the N-Rooks problem!
-# D. Crandall, 2016
-# Updated by Zehua Zhang, 2017
-#
 # The N-rooks problem is: Given an empty NxN chessboard, place N rooks on the board so that no rooks
 # can take any other, i.e. such that no two rooks share the same row or column.
 #sample input  python nqueen_nrook_nknight.py nrook 7 1 1 1
